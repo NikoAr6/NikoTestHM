@@ -51,6 +51,51 @@ int sum_of_digits(int n)
     return sum_of_digits(n / 10) + n % 10;
 }
 
+void test()
+{
+    assert(triangle_area_calculator(int b, int h)==)
+    assert(triangle_area_calculator(int b, int h)==)
+    assert(triangle_area_calculator(int b, int h)==)
+    assert(triangle_area_calculator(int b, int h)==)
+    cout << "Площадь треугольника-OK";
+
+    assert(parallelepiped_volume_calculator(l, w, h)==)
+    assert(parallelepiped_volume_calculator(l, w, h)==)
+    assert(parallelepiped_volume_calculator(l, w, h)==)
+    assert(parallelepiped_volume_calculator(l, w, h)==)
+    cout << "Объем параллелепипеда-OК";
+
+    assert(circumference_calculator(r)==)
+    assert(circumference_calculator(r)==)
+    assert(circumference_calculator(r)==)
+    assert(circumference_calculator(r)==)
+    cout << "Длина окружности-OK";
+
+    assert(is_even(number)==)
+    assert(is_even(number)==)
+    assert(is_even(number)==)
+    assert(is_even(number)==)
+    cout << "Проверка на четность-OK";
+
+    assert(max_number(num1, num2)==)
+    assert(max_number(num1, num2)==)
+    assert(max_number(num1, num2)==)
+    assert(max_number(num1, num2)==)
+    cout << "Бо'льшее число-OK";
+
+    assert(is_prime(number)==)
+    assert(is_prime(number)==)
+    assert(is_prime(number)==)
+    assert(is_prime(number)==)
+    cout << "Проверка на простое число-OK";
+
+    assert(sum_of_digits(n)==)
+    assert(sum_of_digits(n)==)
+    assert(sum_of_digits(n)==)
+    assert(sum_of_digits(n)==)
+    cout << "Сумма цифр числа-OK";
+}
+
 int main()
 {
     int b, h, l1, w1, h1, r2, number0, num1, num2, number1, n;
